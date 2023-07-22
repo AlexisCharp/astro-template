@@ -1,0 +1,36 @@
+{
+  "name": "@alexischarp/astro-template",
+  "type": "module",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "dev": "astro dev",
+    "lint": "TIMING=1 eslint \"src/**/*.{astro,ts,tsx}\"",
+    "postinstall": "is-ci || husky",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^4.8.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-astro": "^0.34.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-sort-exports": "^0.9.1",
+    "husky": "^9.0.11",
+    "is-ci": "^3.0.1",
+    "postcss": "^8.4.38",
+    "postcss-nested": "^6.0.1",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
+    "typescript": "^5.4.5"
+  }
+}
