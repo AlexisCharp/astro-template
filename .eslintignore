@@ -1,0 +1,7 @@
+dist
+node_modules
+
+**/*.md
+
+.eslintrc.json
+postcss.config.cjs
